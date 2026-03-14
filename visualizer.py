@@ -1,6 +1,8 @@
 import folium
+from model import model
 
 # Predict risk for recent data
+recent_data = ''
 predictions = model.predict(recent_data)
 risk_scores = model.predict_proba(recent_data)[:, 1]  # Probability of fire
 

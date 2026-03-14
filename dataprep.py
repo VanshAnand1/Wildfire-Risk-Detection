@@ -1,5 +1,7 @@
 # Create features and labels
 from sklearn.model_selection import train_test_split
+from data import fires_df 
+
 X = fires_df[['temperature', 'humidity',
               'wind_speed', 'rainfall', 'vegetation_index']]
 y = fires_df['fire_occurred']  # 1 = fire, 0 = no fire
