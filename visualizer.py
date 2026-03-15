@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-from sklearn.metrics import classification_report, ConfusionMatrixDisplay
+from sklearn.metrics import ConfusionMatrixDisplay
 import data
 
 def plotFeatureImportance(trainedModel):
