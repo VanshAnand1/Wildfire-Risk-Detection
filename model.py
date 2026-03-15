@@ -8,10 +8,9 @@ def trainModel(X_train, y_train):
 
 def evaluateModel(model, X_test, y_test):
     accuracy = model.score(X_test, y_test)
-    print(f"Accuracy: {accuracy:.2%}")
     return accuracy
 
 def evaluateAndTrainModel(X_train, X_test, y_train, y_test):
-    model = trainModel(X_train, y_train)
-    accuracy = evaluateModel(model, X_test, y_test)
-    return accuracy
+    trainedModel = trainModel(X_train, y_train)
+    accuracy = evaluateModel(trainedModel, X_test, y_test)
+    return accuracy, trainedModel
