@@ -18,7 +18,9 @@ Frameworks and Libraries:
 - numpy
 - scikit-learn 
 - matplotlib and seaborn
+
 Platforms: Local Python virtual environment
+
 Tools: VS Code, Github, Copilot
 
 ## Product Summary
