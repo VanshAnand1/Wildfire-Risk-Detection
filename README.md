@@ -2,11 +2,15 @@
 
 ## How to run
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+
+python3 main.py ['small', 'medium', 'large'] (pick one)
+
+The accuracy will be printed in the terminal, and the figures will open automatically.
 
 ## Inspiration
 
-Wildfires are increasing in frequency and impact, and early risk signals can help communities prepare sooner. This project was inspired by the idea that simple environmental and historical fire indicators can be used to estimate wildfire risks and prevent harm to communities and people.
+Wildfires are increasing in frequency and impact, and early risk signals can help communities prepare sooner. This project was inspired by the idea that simple environmental and historical fire indicators can be used to estimate wildfire risks and prevent harm to communities.
 
 ## What it does
 
