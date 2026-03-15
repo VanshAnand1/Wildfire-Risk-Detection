@@ -2,11 +2,13 @@
 
 ## How to run
 
-pip3 install -r requirements.txt
+clone the repository
 
-python3 main.py ['small', 'medium', 'large'] (pick one)
+run in terminal: pip3 install -r requirements.txt
 
-The accuracy will be printed in the terminal, and the figures will open automatically.
+run in terminal: python3 main.py ['small', 'medium', 'large'] (pick one)
+
+The accuracy of the model will be printed in the terminal, and the figures will open automatically.
 
 ## Inspiration
 Wildfires are increasing in frequency and impact, and early risk signals can help communities prepare sooner. This project was inspired by the need for a simple, practical way to estimate wildfire risk from accessible environmental indicators (temperature, humidity, wind, rainfall, and fire history). The goal was to build an understandable ML tool that can predict wildfire risks and hopefully prevent harm to communities.
